@@ -102,3 +102,7 @@ a{
         padding-top: 2rem;
     }
 }
+
+.company-name {
+    font-size: 20px;
+}
