@@ -25,7 +25,7 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 40vh;
+    padding-top: 10vh;
     text-align: center;
 }
 
@@ -108,7 +108,9 @@ a{
 }
 
 .profile-image {
+    margin-top: -20vh; /* Adjust this value as necessary */
     width: 50%;
     max-width: 50px; /* adjust this as needed */
     height: auto;
 }
+
