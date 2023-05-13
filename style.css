@@ -108,6 +108,6 @@ a{
 }
 
 .profile-image {
-    width: 500px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 1000px; /* Adjust the width as needed */
+    height: 1000px; /* Maintain aspect ratio */
 }
