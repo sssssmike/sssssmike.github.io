@@ -109,6 +109,6 @@ a{
 
 .profile-image {
     width: 100%;
-    max-width: 250px; /* adjust this as needed */
+    max-width: 50px; /* adjust this as needed */
     height: auto;
 }
