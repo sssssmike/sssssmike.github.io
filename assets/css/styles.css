@@ -590,3 +590,24 @@ img {
   text-decoration: underline; /* Adds underline on hover for better user experience */
 }
 
+.skills__name {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.skills__data p {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #555;
+}
+
+.skills__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skills__data {
+  margin-bottom: 1.5rem;
+}
