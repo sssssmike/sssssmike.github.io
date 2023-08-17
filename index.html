@@ -1,112 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Michael Squires</title>
-</head>
-<body>
-    <div class="grid-2">
-        <div class="section-1">
-            <img src="resources/IMG_5165.jpeg" alt="Profile image" class="profile-image">
-            <h2>Michael Squires</h2>
-            <p>Chicago, Illinois</p>
-            <a href="https://www.linkedin.com/in/michael-squires-043253201/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/sssssmike"><i class="fab fa-github"></i></a>
-        </div>
-        <div class="section-2">
-            <h2>About Me</h2>
-            <p>
-                Hello! I'm Michael Squires, a Computer Science student at the University of Illinois Chicago. I am passionate about software engineering and always ready to tackle challenging projects with innovative solutions. My university years provided a deep dive into the world of coding, igniting my passion for software development. When I'm not coding, I enjoy staying active by working out, watching sports, coding up creative projects, and playing video games.
-            </p>
-            <h2>Professional Experience</h2>
-            <p>
-                <span class="company-name">JANO Technologies - Development Team</span><br/>
-                <b>Software Engineer Intern</b><br/>
-                Champaign, IL<br/>
-                June 2023 – Present<br/>
-                <ul>
-                    <li>Reduced employee training time by 90% with creation of a natural language processing chat bot utilizing OpenAI</li>
-                    <li>Developed a RESTful backend service using Flask (Python) and LangChain to query and answer questions</li>
-                    <li>Achieved 100 MS response times by using a cosign similarity algorithm within a vector store database (Pinecone)</li>
-                    <li>Built a modern, responsive UI/UX using Vue.js and Tailwind CSS to enhance the engagement of clerks</li>
-                    <li>Deployed the application on Vercel, leveraging its automatic scalability and optimizations for performance</li>
-                </ul>
-                <span class="company-name">Nordstrom - Payment and Settlements Team</span><br/>
-                <b>Software Engineer Intern</b><br/>
-                Seattle, WA<br/>
-                June 2022 – August 2022<br/>
-                <ul>
-                    <li>Created a new credit and payment data pipeline with the ability to process +1,000,000 transactions daily</li>
-                    <li>Utilized Spring Boot Apache Kafka Streams and a Teradata Sink Connector to extract data from Kafka topics, transform the data into payment profiles, and then load the profiles into Teradata and Amazon S3 in real-time</li>
-                    <li>Enhanced the scalability by building a Docker image and deploying it to the team’s Kubernetes cluster</li>
-                    <li>Accomplished 100% uptime of the data pipeline with monitoring tools such as Spring Boot Metrics and Splunk</li>
-                    <li>Reduced operation costs by $5,000 with creation of DAGs in Apache Airflow using Python to automate tasks</li>
-                </ul>
-                <span class="company-name">Will County Clerk of the Circuit Court’s Office — Core IT Team</span><br/>
-                <b>Information Technology Intern</b><br/>
-                Joliet, IL<br/>
-                May 2021 – August 2022<br/>
-                <ul>
-                    <li>Provided Tier 2 IT support, resolving technical issues for a diverse group of end-users, including judges and clerks</li>
-                    <li>Resolved issues such as security breaches and password resets by using Bash commands within the Unix terminal</li>
-                </ul>
-            </p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <h2>Projects</h2>
-            <p>
-                <!-- LeetRepo Project -->
-                <span class="company-name">LeetRepo</span> — Repository for Algorithm Questions | Next.js, SQL, Tailwind CSS, Git<br/>
-                <ul>
-                    <li>Spearheading the development of a fullstack repository website where users can store and sort algorithm questions</li>
-                    <li>Going through the entire software development life cycle and managing the project with use of agile principles</li>
-                </ul>
-                
-                <!-- A2 Technologies Project -->
-                <span class="company-name">A2 Technologies</span> — Automatic Anesthesiology Administering | React.js, Google Firestore, NoSQL, Git<br/>
-                <ul>
-                    <li>Achieved a 98% reduction in human errors by implementing algorithm to automatically administer anesthesia</li>
-                    <li>Ensured data security by implementing the AES (government standard) encryption and decryption algorithms</li>
-                </ul>
-                
-                <!-- GoogleTrack Project -->
-                <span class="company-name">GoogleTrack</span> — Google Maps Route Tracker | C++, Google Maps API, Git<br/>
-                <ul>
-                    <li>Developed backend application using Google Maps API to find the shortest path to a common meeting place</li>
-                    <li>Accelerated route planning speed by 10% with the implementation of graph search algorithms such as Dijkstra’s</li>
-                </ul>
-                
-                <!-- Elevator Mayhem Project -->
-                <span class="company-name">Elevator Mayhem</span> — Concurrent Elevator Simulator | C, Git<br/>
-                <ul>
-                    <li>Used POSIX threads, mutex locks, and conditional variables to implement a multithreaded elevator system</li>
-                    <li>Efficiently scheduled elevators and coordinated passenger requests in real-time by utilizing concurrency principles</li>
-                </ul>
-                
-                <!-- OpenAI Dive Project -->
-                <span class="company-name">OpenAI Dive</span> — Generative Language Model Evaluation | Python, Pandas, OpenAI, Scikit-learn, Git<br/>
-                <ul>
-                    <li>Crafted an advanced assessment tool to determine the best OpenAI LLM, utilizing core data analysis tools</li>
-                    <li>Achieved a mean squared error of .02 by employing a linear regression data model with the use of Scikit-learn</li>
-                </ul>
-            </p>            
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-            <h2>Technical Skills</h2>
-            <p>
-                <p><strong>Languages:</strong> C, C++, Python, Java, JavaScript, SQL, HTML/CSS, Bash, F#, YAML, XML, JSON<br/></p>
-                <p><strong>Frameworks/Libraries:</strong> React (React.js, Next.js, Vue.js), Spring Boot, Apache Kafka, Google Firestore, AWS (DynamoDB, S3)<br/></p>
-                <p><strong>Tools/Libraries:</strong> Docker, Scikit-learn, LangChain, OpenAI, Google Test, JUnit, Agile, Jira, CI/CD, Git</p>
-                <p><strong>Certifications/Communities:</strong> Google Developers Student Club, Microsoft AI Skills Challenge, ColorStack</p>
-            </p>
-            
-            <h2>Contact Info</h2>
-            <p><a href="mailto:mikesquires7@example.com">mikesquires7@example.com</a></p>
-            <p>Phone: +1 (708) 374-6259</p>
-        </div>
-    </div>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Michael Squires</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Michael Squires</span><br> Software Engineer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/about.jpg"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I am Michael</h2>
+                        <p class="about__text">Hello, I am a computer science student at the University of Illinois Chicago. When I'm not coding, I am either at the gym or watching sports!</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Marlon</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
-            
