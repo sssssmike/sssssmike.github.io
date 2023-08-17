@@ -529,6 +529,58 @@ img {
   }
 }
 
+.work__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 2rem;
+}
+
+.work__experience {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  border: 1px solid #e0e0e0; /* Optional: adds a border around each work experience section */
+  border-radius: 8px; /* Optional: rounds the corners of the border */
+}
+
+.work__title {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.work__company {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.work__company a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.work__company a:hover {
+  text-decoration: underline; 
+}
+
+.work__location,
+.work__duration {
+  margin: 0.2rem 0;
+  color: #555;
+}
+
+.work__responsibilities {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  color: #444;
+}
+
+.work__responsibilities li {
+  margin-bottom: 0.5rem;
+}
+
+
 .work__company a {
   text-decoration: none;
   color: inherit; /* Makes the link color the same as the surrounding text */
