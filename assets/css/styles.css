@@ -628,3 +628,49 @@ img {
       padding-left: 0; /* Remove the left padding on smaller screens */
   }
 }
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 2rem;
+}
+
+.project {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  border: 1px solid #e0e0e0; /* Adds a border around each project section */
+  border-radius: 8px; /* Rounds the corners of the border */
+}
+
+.project__title {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.project__title a {
+  text-decoration: none;
+  color: inherit; /* Makes the link color the same as the surrounding text */
+}
+
+.project__title a:hover {
+  text-decoration: underline; /* Adds underline on hover for better user experience */
+}
+
+.project__tech {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.project__responsibilities {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  color: #444;
+}
+
+.project__responsibilities li {
+  margin-bottom: 0.5rem;
+}
+
