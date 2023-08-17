@@ -528,3 +528,13 @@ img {
     width: 450px;
   }
 }
+
+.work__company a {
+  text-decoration: none;
+  color: inherit; /* Makes the link color the same as the surrounding text */
+}
+
+.work__company a:hover {
+  text-decoration: underline; /* Adds underline on hover for better user experience */
+}
+
