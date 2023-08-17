@@ -590,7 +590,15 @@ img {
   text-decoration: underline; /* Adds underline on hover for better user experience */
 }
 
+.skills__data {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
 .skills__name {
+  flex: 0 0 220px; /* Set a specific width for the titles */
   margin: 0;
   font-size: 1.2rem;
   color: #333;
@@ -598,6 +606,7 @@ img {
 }
 
 .skills__data p {
+  flex: 1; /* Allow the list of skills to take up the remaining space */
   margin: 0;
   padding-left: 1.5rem;
   color: #555;
@@ -608,6 +617,14 @@ img {
   height: auto;
 }
 
-.skills__data {
-  margin-bottom: 1.5rem;
+@media screen and (max-width: 768px) {
+  .skills__name {
+      flex: 0 0 auto; /* Allow the titles to take up the necessary width on smaller screens */
+      margin-bottom: 0.3rem;
+  }
+
+  .skills__data p {
+      flex: 1;
+      padding-left: 0; /* Remove the left padding on smaller screens */
+  }
 }
